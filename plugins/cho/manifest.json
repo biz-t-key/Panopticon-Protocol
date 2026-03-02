@@ -1,0 +1,6 @@
+{
+    "name": "CHO",
+    "role": "Chief Hype Officer",
+    "trigger": "on_merge_to_main",
+    "weapon": "weapon.mjs"
+}

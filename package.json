@@ -1,0 +1,13 @@
+{
+    "name": "panopticon-os",
+    "version": "1.0.0",
+    "description": "Panopticon Governance-as-a-Service OS (Local Secret Edition)",
+    "type": "module",
+    "bin": {
+        "panopticon": "./cli.mjs"
+    },
+    "dependencies": {
+        "tree-sitter": "^0.20.0",
+        "tree-sitter-typescript": "^0.20.0"
+    }
+}

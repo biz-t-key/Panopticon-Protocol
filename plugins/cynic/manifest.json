@@ -1,0 +1,6 @@
+{
+    "name": "Cynic",
+    "role": "Chief Cynic Officer",
+    "trigger": "on_pull_request",
+    "weapon": "weapon.mjs"
+}

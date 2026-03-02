@@ -1,0 +1,6 @@
+{
+    "name": "CLO",
+    "role": "Chief Legal Officer",
+    "trigger": "on_pull_request",
+    "weapon": "weapon.mjs"
+}

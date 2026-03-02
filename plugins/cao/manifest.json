@@ -1,0 +1,6 @@
+{
+  "name": "CAO",
+  "role": "Chief Architect Officer",
+  "trigger": "on_pull_request",
+  "weapon": "weapon.mjs"
+}
