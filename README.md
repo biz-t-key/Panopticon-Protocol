@@ -1,57 +1,29 @@
-# 👁️ Panopticon-Protocol
+Panopticon Zero: The Ruthless Audit Protocol
+Stop letting your AI be lazy. Stop accepting half-baked code.
+LLMs are fundamentally lazy. If you don't leash them, they will skip the hard parts with // implement logic here, hallucinate variables, and repeat the same mistakes you corrected five minutes ago.
+Mimesis Zero is a minimalist, industrial-grade guardrail designed to force any LLM (Claude, GPT, Gemini) into absolute compliance. It is the "entry-level" version of the Panopticon Protocol.
+🚀 The Three Laws of Zero
+1. NO STUBS: 100% full implementation only. Any placeholder is a critical failure.
+2. ZERO HALLUCINATION: If the AI is unsure, it must stay silent. No guessing.
+3. SHAME LOG: The AI must acknowledge past failures and guarantee zero repetition.
+🛠️ How to Use
+Simply append the following block to the end of any prompt (Coding, Writing, Analysis).
+# MISSION: THE RUTHLESS AUDIT PROTOCOL (ZERO)
 
-> *"Sovereignty through Code. Governance through Proof."*
+Before providing any output, you MUST execute this self-audit:
 
-A portable AI governance framework and CLI for enforcing ruthless architectural standards across any project.
+1. **NO STUBS**: 100% full implementation only. Any placeholder (e.g., "// implement here") is a critical failure.
+2. **ZERO HALLUCINATION**: Base your response strictly on provided facts. If unsure, state "Insufficient Context."
+3. **SHAME LOG**: Acknowledge your previous errors and guarantee zero repetition.
 
----
+<Audit_Report>
+- [ ] 100% complete with NO stubs? (Yes/No)
+- [ ] Zero hallucinations based on reality? (Yes/No)
+- [ ] Actively avoided past mistakes? (Yes/No)
+</Audit_Report>
 
-## What is this?
+**PENALTY**: If any item is [No], HALT IMMEDIATELY. Output only the reason for failure.
 
-Panopticon-Protocol is a governance OS you can `init` into any codebase. It installs:
-- **A Board of AI Advisors** (CXO Personas) with distinct roles and philosophies
-- **A Git Pre-Push Audit Gate** to veto non-compliant code before it escapes
-- **A P-IR Extractor** (`core/extractor.mjs`) to map your codebase's "skeleton" via AST analysis
-
-It is **not a linter**. It is **not a test framework**. It is an opinionated, AI-driven governance authority.
-
----
-
-## The Board (CXO Personas)
-
-| Persona | Role | Mandate |
-| :--- | :--- | :--- |
-| **@CAO** | Architect | Enforces structural purity, atomicity (max 150 lines/file) |
-| **@CLO** | Legal/Compliance | Ensures privacy, data sovereignty, zero PII leakage |
-| **@CHO** | Human Experience | Validates that features serve humans, not metrics |
-| **@Cynic** | Auditor | Vetoes anything that can't be justified in 10 words |
-
----
-
-## Quick Start
-
-```bash
-# In your project root:
-node /path/to/panopticon-protocol/cli.mjs init
-```
-
-This will:
-1. Install `.panopticonrc` (the Control Dial)
-2. Inject a Git pre-push hook that runs the AI audit gate
-
----
-
-## OSS Inquisitor
-
-This repo also hosts the **OSS Inquisitor** project: surgical extractions of core logic from bloated legacy libraries.
-
-Each extraction includes:
-- The refined atomic module
-- A `CERTIFICATE.md` (Absolute Proof of refinement)
-- Full attribution to the original authors
-
-**Honor the pioneers. Then free their logic from the burden of the past.**
-
----
-
-*Built under the Anti-Ursula Philosophy: we do not steal users' souls.*
+⚠️ Why the "HALT"?
+Most prompts try to "encourage" the AI. Mimesis Zero threatens it.
+By forcing a HALT protocol, the AI is physically prevented from giving you garbage. It must pass the audit or output nothing. This shifts the AI from a "polite assistant" to a "Ruthless Executor."
